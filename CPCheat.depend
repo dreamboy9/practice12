@@ -1,0 +1,171 @@
+# depslib dependency file v1.0
+1186752563 source:c:\documents and settings\henrik\desktop\dev\cpcheat\main.c
+	"cpcheat.h"
+
+1187741715 c:\documents and settings\henrik\desktop\dev\cpcheat\sdk.h
+	"parsemsg.h"
+
+1185724433 c:\documents and settings\henrik\desktop\dev\cpcheat\engine.h
+
+1187741819 source:c:\documents and settings\henrik\desktop\dev\cpcheat\engine.c
+	"cpcheat.h"
+	<stdio.h>
+
+1187127927 source:c:\documents and settings\henrik\desktop\dev\cpcheat\client.c
+	"cpcheat.h"
+
+1187125887 c:\documents and settings\henrik\desktop\dev\cpcheat\cpcheat.h
+	<windows.h>
+	<GL/gl.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"sdk.h"
+	"client.h"
+	"engine.h"
+	"players.h"
+	"msghook.h"
+	"settings.h"
+	"font.h"
+	"console.h"
+	"gui.h"
+	"parser.h"
+	"aimbot.h"
+
+1187038049 c:\documents and settings\henrik\desktop\dev\cpcheat\client.h
+
+1187040119 source:c:\documents and settings\henrik\desktop\dev\cpcheat\players.c
+	"cpcheat.h"
+
+1186954694 c:\documents and settings\henrik\desktop\dev\cpcheat\players.h
+
+1185462730 c:\documents and settings\henrik\desktop\dev\cpcheat\msghook.h
+
+1187141533 source:c:\documents and settings\henrik\desktop\dev\cpcheat\msghook.c
+	"cpcheat.h"
+
+1156655700 c:\documents and settings\henrik\desktop\dev\cpcheat\parsemsg.h
+
+1179483866 source:c:\documents and settings\henrik\desktop\dev\cpcheat\parsemsg.c
+
+1186846844 c:\documents and settings\henrik\desktop\dev\cpcheat\settings.h
+
+1186846883 source:c:\documents and settings\henrik\desktop\dev\cpcheat\settings.c
+	"cpcheat.h"
+
+1185750722 c:\documents and settings\henrik\desktop\dev\cpcheat\console.h
+
+1185922315 source:c:\documents and settings\henrik\desktop\dev\cpcheat\console.c
+	"cpcheat.h"
+
+1185724379 c:\documents and settings\henrik\desktop\dev\cpcheat\font.h
+
+1185922990 source:c:\documents and settings\henrik\desktop\dev\cpcheat\font.c
+	"cpcheat.h"
+
+1185724822 c:\documents and settings\henrik\desktop\dev\cpcheat\gui.h
+
+1185724818 source:c:\documents and settings\henrik\desktop\dev\cpcheat\gui.c
+	"cpcheat.h"
+
+1185842258 c:\documents and settings\henrik\desktop\dev\cpcheat\parser.h
+
+1186858538 source:c:\documents and settings\henrik\desktop\dev\cpcheat\parser.c
+	"cpcheat.h"
+
+1186951821 c:\documents and settings\henrik\desktop\dev\cpcheat\aimbot.h
+
+1187741799 source:c:\documents and settings\henrik\desktop\dev\cpcheat\aimbot.c
+	"cpcheat.h"
+
+1193869436 source:c:\documents and settings\henrik\desktop\cpcheat\client.c
+	"cpcheat.h"
+
+1193860350 c:\documents and settings\henrik\desktop\cpcheat\cpcheat.h
+	<windows.h>
+	<GL/gl.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"sdk.h"
+	"client.h"
+	"engine.h"
+	"players.h"
+	"msghook.h"
+	"settings.h"
+	"font.h"
+	"console.h"
+	"gui.h"
+	"parser.h"
+	"aimbot.h"
+	"utils.h"
+	"cmdhook.h"
+
+1193859958 c:\documents and settings\henrik\desktop\cpcheat\sdk.h
+	"parsemsg.h"
+
+1156652100 c:\documents and settings\henrik\desktop\cpcheat\parsemsg.h
+
+1193866788 c:\documents and settings\henrik\desktop\cpcheat\client.h
+
+1185720833 c:\documents and settings\henrik\desktop\cpcheat\engine.h
+
+1186951094 c:\documents and settings\henrik\desktop\cpcheat\players.h
+
+1185459130 c:\documents and settings\henrik\desktop\cpcheat\msghook.h
+
+1186843244 c:\documents and settings\henrik\desktop\cpcheat\settings.h
+
+1185720779 c:\documents and settings\henrik\desktop\cpcheat\font.h
+
+1185747122 c:\documents and settings\henrik\desktop\cpcheat\console.h
+
+1185721222 c:\documents and settings\henrik\desktop\cpcheat\gui.h
+
+1185838658 c:\documents and settings\henrik\desktop\cpcheat\parser.h
+
+1186948221 c:\documents and settings\henrik\desktop\cpcheat\aimbot.h
+
+1185918715 source:c:\documents and settings\henrik\desktop\cpcheat\console.c
+	"cpcheat.h"
+
+1193872453 source:c:\documents and settings\henrik\desktop\cpcheat\engine.c
+	"cpcheat.h"
+	<stdio.h>
+
+1185919390 source:c:\documents and settings\henrik\desktop\cpcheat\font.c
+	"cpcheat.h"
+
+1185721218 source:c:\documents and settings\henrik\desktop\cpcheat\gui.c
+	"cpcheat.h"
+
+1193860693 source:c:\documents and settings\henrik\desktop\cpcheat\main.c
+	"cpcheat.h"
+
+1187137933 source:c:\documents and settings\henrik\desktop\cpcheat\msghook.c
+	"cpcheat.h"
+
+1179480266 source:c:\documents and settings\henrik\desktop\cpcheat\parsemsg.c
+
+1186854938 source:c:\documents and settings\henrik\desktop\cpcheat\parser.c
+	"cpcheat.h"
+
+1193866956 source:c:\documents and settings\henrik\desktop\cpcheat\players.c
+	"cpcheat.h"
+
+1186843283 source:c:\documents and settings\henrik\desktop\cpcheat\settings.c
+	"cpcheat.h"
+
+1194024494 source:c:\documents and settings\henrik\desktop\cpcheat\aimbot.c
+	"cpcheat.h"
+
+1193858603 c:\documents and settings\henrik\desktop\cpcheat\utils.h
+
+1193858595 source:c:\documents and settings\henrik\desktop\cpcheat\utils.c
+	"cpcheat.h"
+
+1193860342 c:\documents and settings\henrik\desktop\cpcheat\cmdhook.h
+
+1193860644 source:c:\documents and settings\henrik\desktop\cpcheat\cmdhook.c
+	"cpcheat.h"
+

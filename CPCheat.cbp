@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CPCheat" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin\Release\CPCheat.dll" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libopengl32.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-DBUILD_DLL" />
+		</Compiler>
+		<Linker>
+			<Add library="user32" />
+			<Add library="libm" />
+		</Linker>
+		<Unit filename="aimbot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="aimbot.h" />
+		<Unit filename="client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="client.h" />
+		<Unit filename="cmdhook.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cmdhook.h" />
+		<Unit filename="console.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="console.h" />
+		<Unit filename="cpcheat.h" />
+		<Unit filename="engine.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="engine.h" />
+		<Unit filename="font.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="font.h" />
+		<Unit filename="gui.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gui.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="msghook.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="msghook.h" />
+		<Unit filename="parsemsg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="parsemsg.h" />
+		<Unit filename="parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="parser.h" />
+		<Unit filename="players.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="players.h" />
+		<Unit filename="sdk.h" />
+		<Unit filename="settings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="settings.h" />
+		<Unit filename="utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utils.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
