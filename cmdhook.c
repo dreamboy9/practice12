@@ -3,6 +3,8 @@
 struct command_s *cmdbase = 0;
 char szaddcmd[] = "Cmd_AddCommand after host_initialized";
 
+void antislowhack();
+
 void
 hookcmd()
 {
@@ -20,4 +22,38 @@ hookcmd()
     }
 
     addline("commandbase found at: 0x%X", cmdbase);
+    antislowhack();
+}
+
+void*
+interceptcmd(char* name, void* func)
+{
+    void* retval = 0;
+
+    command_t *cmd = cmdbase;
+    while(cmd && cmd->next) {
+        cmd = cmd->next;
+        if(!strcmp(name, cmd->name)) {
+            retval = cmd->func;
+            cmd->func = func;
+            break;
+        }
+    }
+
+    return retval;
+}
+
+void
+dummy()
+{
+    addline("WARNING: Command execution prevented due to antislowhack.");
+}
+
+void
+antislowhack()
+{
+    interceptcmd("kill", &dummy);
+    interceptcmd("unbind", &dummy);
+    interceptcmd("unbindall", &dummy);
+    interceptcmd("dropclient", &dummy);
 }
